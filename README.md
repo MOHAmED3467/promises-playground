@@ -3,7 +3,7 @@
 This is a simple **JavaScript Promises Playground** where you can test basic concepts of Promises, chaining, error handling, and working with user input.
 
 ## 🚀 Live Demo
-👉 [Click here to try it on GitHub Pages](https://YOUR-USERNAME.github.io/promises-playground/)
+👉 [Click here to try it on GitHub Pages](https://mohamed3467.github.io/promises-playground/)
 
 ---
 

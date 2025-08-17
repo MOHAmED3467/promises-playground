@@ -1,0 +1,41 @@
+body {
+  font-family: system-ui, Arial, sans-serif;
+  padding: 24px;
+  background: #0f172a;
+  color: #e6eef8;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 12px;
+  padding: 16px;
+  margin: 12px 0;
+}
+
+button, select, input {
+  cursor: pointer;
+  padding: 10px 14px;
+  border-radius: 8px;
+  border: 1px solid #7c3aed;
+  background: #fff;
+  color: #0f172a;
+  font-weight: 600;
+}
+
+button {
+  background: #7c3aed;
+  color: white;
+}
+
+button:hover {
+  filter: brightness(1.1);
+}
+
+pre {
+  background: rgba(255, 255, 255, 0.06);
+  padding: 12px;
+  border-radius: 8px;
+  overflow: auto;
+  margin-top: 10px;
+}

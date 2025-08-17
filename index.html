@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Promises Tasks with Input</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>JavaScript Promises Playground</h1>
+
+  <div class="card">
+    <h2>Choose a Task</h2>
+    <select id="taskSelect">
+      <option value="">-- Select a task --</option>
+      <option value="basics">1) Promise Basics</option>
+      <option value="chaining">2) Promise Chaining</option>
+      <option value="error">3) Error Handling</option>
+      <option value="custom">4) Custom Input (UpperCase)</option>
+    </select>
+    <br><br>
+
+    <input type="text" id="userInput" placeholder="Type your input here..." />
+    <br><br>
+
+    <button onclick="runSelectedTask()">Run Task</button>
+    <pre id="output">Result will appear here…</pre>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
